@@ -4,6 +4,7 @@ import Hero from './components/Hero'
 import TechCard from './components/TechCard'
 import data from './data.json'
 import type { Tech } from './types'
+import Footer from './components/Footer'
 
 const techList = data as Tech[]
 
@@ -45,6 +46,8 @@ function App() {
           ))}
         </div>
       </section>
+
+      <Footer/>
     </>
   )
 }
