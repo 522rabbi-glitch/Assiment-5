@@ -13,8 +13,8 @@ function StackSidebar({
 }: StackSidebarProps) {
   return (
     <aside>
-      <div className="border rounded-2xl p-6 shadow-sm bg-white sticky top-6">
-        <div className="flex items-center justify-between mb-5">
+      <div className="border rounded-2xl p-5 shadow-sm bg-white sticky top-6">
+        <div className="flex i mb-5">
           <h2 className="text-2xl font-bold">
             Your Stack
           </h2>
@@ -43,7 +43,7 @@ function StackSidebar({
             {stack.map((tech) => (
               <div
                 key={tech.id}
-                className="flex items-center justify-between gap-3 border rounded-lg p-3"
+                className="flex  gap-3 border rounded-lg p-3"
               >
                 <div>
                   <h3 className="font-semibold text-sm">

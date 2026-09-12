@@ -60,7 +60,7 @@ function App() {
 
       <Hero />
 
-      <main className="container mx-auto px-4 md:px-8 py-10">
+      <main className="container mx-auto px-3 md:px-8 py-10">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
 
           <section className="lg:col-span-2">
@@ -77,7 +77,7 @@ function App() {
               </p>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               {techList.map((tech) => (
                 <TechCard
                   key={tech.id}
@@ -101,10 +101,15 @@ function App() {
 
       <Footer />
 
-   <ToastContainer
-  position="top-right"
-  autoClose={2000}
-  theme="light"
+<ToastContainer 
+  position="top-right" 
+  autoClose={2000} 
+  hideProgressBar={false} 
+  newestOnTop 
+  closeOnClick 
+  pauseOnHover 
+  theme="light" 
+  aria-label="Notification messages" 
 />
     
     </>
