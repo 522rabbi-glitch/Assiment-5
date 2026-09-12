@@ -32,7 +32,16 @@ function App() {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {techList.map((tech) => (
-            <TechCard key={tech.id} tech={tech} onAdd={handleAdd} />
+            <TechCard
+          key={tech.id}
+          tech={tech}
+          onAdd={handleAdd}
+          isAdded={stack.some(
+          (item) => item.id === tech.id
+        )}
+         />
+
+
           ))}
         </div>
       </section>
