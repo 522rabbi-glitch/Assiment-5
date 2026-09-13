@@ -6,8 +6,7 @@ const Footer: React.FC = () => {
       <div className="mx-auto w-full max-w-[1500px] px-5 sm:px-7">
         
         {/* Main Footer */}
-        <div className="grid gap-10 py-12 sm:py-14 md:grid-cols-[1.6fr_1fr_1fr_2fr]">
-
+         <div className="grid gap-10 py-12 sm:py-14 md:grid-cols-[1.6fr_1fr_1fr_1fr] md:justify-items-start">
           {/* Brand */}
           <div>
             <a href="#" className="flex w-fit items-center gap-2">

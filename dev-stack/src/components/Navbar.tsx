@@ -4,7 +4,7 @@ import Logo from '../assets/logo-text.png'
 
 
   return (
-       <nav className="flex items-center justify-between px-10 py-4 border-b border-gray-200 container mx-auto ">
+       <nav className="sticky top-0 z-50 bg-white container mx-auto flex items-center justify-between px-10 py-4 border-b border-gray-200">
      
      
      {/* Hambar logo only mobile */}
