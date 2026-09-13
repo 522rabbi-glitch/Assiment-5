@@ -13,13 +13,13 @@ function StackSidebar({
 }: StackSidebarProps) {
   return (
     <aside>
-      <div className="border rounded-2xl p-5 shadow-sm bg-white sticky top-6">
+      <div className="border rounded-2xl p-2 shadow-sm bg-white sticky top-10">
         <div className="flex items-center  justify-between mb-5">
           <h2 className="text-2xl font-bold">
             Your Stack
           </h2>
 
-          <span className="bg-pink-100 text-pink-600 px-3 py-1 rounded-full font-bold">
+          <span className="bg-pink-100 text-pink-600 px-2 py-1 rounded-full font-bold">
             {stack.length}
           </span>
         </div>

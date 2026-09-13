@@ -2,11 +2,11 @@ import React from "react";
 
 const Footer: React.FC = () => {
   return (
-    <footer className="mt-24 border-t border-slate-100 bg-white">
-      <div className="mx-auto w-full max-w-[1100px] px-5 sm:px-7">
+    <footer className="mt-30 border-t border-slate-100 bg-white">
+      <div className="mx-auto w-full max-w-[1500px] px-5 sm:px-7">
         
         {/* Main Footer */}
-        <div className="grid gap-10 py-12 sm:py-14 md:grid-cols-[1.6fr_1fr_1fr_1fr]">
+        <div className="grid gap-10 py-12 sm:py-14 md:grid-cols-[1.6fr_1fr_1fr_2fr]">
 
           {/* Brand */}
           <div>
@@ -20,9 +20,9 @@ const Footer: React.FC = () => {
               </span>
             </a>
 
-            <p className="mt-4 max-w-[300px] text-xs leading-6 text-slate-400">
-              Curated tools, technologies, and resources for developers
-              building modern software.
+            <p className="mt-4 max-w-[400px] text-xs leading-6 text-slate-400">
+              Curated tools, technologies, and resources for developers building 
+               modern software.
             </p>
 
             {/* Social Links */}

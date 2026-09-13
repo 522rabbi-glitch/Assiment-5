@@ -4,7 +4,7 @@ import Logo from '../assets/logo-text.png'
 
 
   return (
-       <nav className="flex items-center justify-between px-10 py-4 border-b border-gray-200 container mx-auto">
+       <nav className="flex items-center justify-between px-10 py-4 border-b border-gray-200 container mx-auto ">
      
      
      {/* Hambar logo only mobile */}
@@ -17,7 +17,7 @@ import Logo from '../assets/logo-text.png'
       {/* Menu Links */}
       <div>
         <ul className="hidden md:flex gap-8 text-gray-700 font-medium">
-        <li className="text-pink-600 cursor-pointer">Home</li>
+        <li className="text-pink-500 cursor-pointer">Home</li>
         <li className="cursor-pointer hover:text-pink-500">Technologies</li>
         <li className="cursor-pointer hover:text-pink-500">Projects</li>
         <li className="cursor-pointer hover:text-pink-500">About</li>

@@ -64,4 +64,4 @@ function TechCard({ tech, onAdd, isAdded }: TechCardProps) {
     </div>
   )
 }
-export default TechCard
+export default TechCard;
